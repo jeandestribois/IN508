@@ -1,7 +1,7 @@
 all: build run
 
 build:
-	javac -d bin -sourcepath src/*.java
+	javac -d bin -sourcepath src src/*.java
 
 run:
 	java -cp bin Main

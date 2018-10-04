@@ -11,9 +11,8 @@ public class Fraction
 		this.num=num;
 		this.den=den;
 	}
-	String toString()
+	public String toString()
 	{
-		String s="this.num"+"\n_\n"+"this.den";
-		return s;
+		return this.num+"/"+this.den;
 	}
 }
